@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  outline: 0 !important;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+@import url(./fonts.css);
+
+body {
+  font-family: "Roboto";
+}
