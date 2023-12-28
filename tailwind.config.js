@@ -11,6 +11,7 @@ export default {
         center: true,
         screens: {
           xl: "1280px",
+          md: "361px",
         },
       },
       colors: {
