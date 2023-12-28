@@ -6,28 +6,27 @@ import chart from "/images/chart.png";
 export const Hero = () => {
   return (
     <div>
-      <div className="py-[80px] flex items-center justify-between">
-        <div className="flex gap-4">
-          <div className="pt-[80px]">
+      <div className="sm:py-[48px] xl:py-[80px] flex sm:flex-col-reverse sm:gap-[32px] items-center justify-between">
+        <div className="flex sm:gap-2 xl:gap-4">
+          <div className="sm:pt-[48px] xl:pt-[80px]">
             <img className="w-[189px]" src={img1} alt="image 1" />
           </div>
-          <div className="pb-[80px]">
+          <div className="sm:pb-[48px] xl:pb-[80px]">
             <img className="w-[189px]" src={img2} alt="image 2" />
           </div>
-          <div className="py-[40px]">
+          <div className="sm:py-[24px] xl:py-[40px]">
             <img className="w-[189px]" src={img3} alt="image 3" />
           </div>
         </div>
 
         <div>
-          <h2 className="text-black text-[56px] font-extrabold mb-[24px] leading-[61.60px]">
+          <h2 className="text-black sm:text-[40px] sm:font-bold sm:leading-[44px] xl:text-[56px] xl:font-extrabold mb-[24px] xl:leading-[61.60px]">
             Enjoy your time <br /> working
           </h2>
-          <p className="text-lg text-grey mb-[24px]">
-            Etiam condimentum duis molestie malesuada volutpat pellentesque sed.{" "}
-            <br />
-            Ornare suspendisse ut ac neque lobortis sed tincidunt. Mi tempus
-            quis <br />
+          <p className="xl:text-lg text-grey mb-[24px]">
+            Etiam condimentum duis molestie malesuada <br /> volutpat
+            pellentesque sed. Ornare suspendisse ut ac neque lobortis sed
+            tincidunt. Mi tempus quis <br />
             massa tellus imperdiet aenean nulla id.
           </p>
           <a
@@ -39,16 +38,17 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="py-[80px] flex items-center justify-between">
+      <div className="sm:py-[48px] xl:py-[80px] flex sm:flex-col sm:gap-[32px] items-center justify-between">
         <div>
-          <h2 className="text-black text-[56px] font-extrabold mb-[24px] leading-[61.60px]">
-            Get all the tools your <br /> team needs
+          <h2 className="text-black sm:text-[40px] sm:font-bold sm:leading-[44px] xl:text-[56px] xl:font-extrabold mb-[24px] xl:leading-[61.60px]">
+            Get all the tools your <br className="sm:hidden" /> team needs
           </h2>
-          <p className="text-lg text-grey mb-[24px]">
+          <p className="xl:text-lg text-grey mb-[24px]">
             Egestas fringilla aliquam leo, habitasse arcu varius lorem elit.
-            Neque pellentesque <br /> donec et tellus ac varius tortor,
-            bibendum. Nulla felis ac turpis at amet. Purus <br /> malesuada
-            placerat arcu at enim elit in accumsan.
+            Neque pellentesque <br className="sm:hidden" /> donec et tellus ac
+            varius tortor, bibendum. Nulla felis ac turpis at amet. Purus{" "}
+            <br className="sm:hidden" /> malesuada placerat arcu at enim elit in
+            accumsan.
           </p>
           <a
             href="#"
