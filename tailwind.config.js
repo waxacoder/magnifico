@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        sm: "0",
+        md: "393px",
+      },
       container: {
         center: true,
         screens: {
@@ -18,7 +22,7 @@ export default {
           1: "#E2E8F0",
           2: "#94A3B8",
           3: "#F1F5F9",
-          4: "#CBD5E1"
+          4: "#CBD5E1",
         },
         blue: {
           DEFAULT: "#2563EB",
