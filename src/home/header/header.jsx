@@ -2,7 +2,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { Button } from "../../common/button/button";
 import teamImg from "/images/Desktop.png";
 import logos from "/images/Logos.png";
-import logos2 from "/public/images/logos 2.png"
+import logos2 from "/images/logos 2.png"
 export const Header = () => {
   return (
     <div className="sm:py-[48px] xl:py-[80px] xl:flex items-center justify-between">

@@ -6,7 +6,7 @@ import chart from "/images/chart.png";
 export const Hero = () => {
   return (
     <div>
-      <div className="sm:py-[48px] xl:py-[80px] flex sm:flex-col-reverse sm:gap-[32px] items-center justify-between">
+      <div className="sm:py-[48px] xl:py-[80px] flex  sm:flex-col-reverse  sm:gap-[32px] xl:gap-[80px] xl:flex-row   xl:items-center xl:justify-between">
         <div className="flex sm:gap-2 xl:gap-4">
           <div className="sm:pt-[48px] xl:pt-[80px]">
             <img className="w-[189px]" src={img1} alt="image 1" />
@@ -24,8 +24,8 @@ export const Hero = () => {
             Enjoy your time <br /> working
           </h2>
           <p className="xl:text-lg text-grey mb-[24px]">
-            Etiam condimentum duis molestie malesuada <br /> volutpat
-            pellentesque sed. Ornare suspendisse ut ac neque lobortis sed
+            Etiam condimentum duis molestie malesuada <br className="xl:hidden" /> volutpat
+            pellentesque sed. <br className="hidden xl:inline" /> Ornare suspendisse ut ac neque lobortis sed
             tincidunt. Mi tempus quis <br />
             massa tellus imperdiet aenean nulla id.
           </p>
@@ -38,16 +38,16 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="sm:py-[48px] xl:py-[80px] flex sm:flex-col sm:gap-[32px] items-center justify-between">
+      <div className="py-[48px] xl:py-[80px] flex flex-col gap-[32px] xl:flex-row xl:gap-0 items-center justify-between">
         <div>
           <h2 className="text-black sm:text-[40px] sm:font-bold sm:leading-[44px] xl:text-[56px] xl:font-extrabold mb-[24px] xl:leading-[61.60px]">
-            Get all the tools your <br className="sm:hidden" /> team needs
+            Get all the tools your <br className="hidden xl:inline" /> team needs
           </h2>
           <p className="xl:text-lg text-grey mb-[24px]">
             Egestas fringilla aliquam leo, habitasse arcu varius lorem elit.
-            Neque pellentesque <br className="sm:hidden" /> donec et tellus ac
+            Neque pellentesque <br className="hidden xl:inline" /> donec et tellus ac
             varius tortor, bibendum. Nulla felis ac turpis at amet. Purus{" "}
-            <br className="sm:hidden" /> malesuada placerat arcu at enim elit in
+            <br className="hidden xl:inline" /> malesuada placerat arcu at enim elit in
             accumsan.
           </p>
           <a
