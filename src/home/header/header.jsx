@@ -27,13 +27,13 @@ export const Header = () => {
             <input
               type="email"
               placeholder="Enter work email"
-              className="placeholder:text-black text-base sm:w-[145px] xl:w-[100%] "></input>
+              className="placeholder:text-grey text-base sm:w-[145px] xl:w-[100%] "></input>
           </div>
           <Button>
             <p className="px-[16px]">Sign Up Free </p>{" "}
           </Button>
         </div>
-        <div className= "sm:hidden xl:block spx-[15px] py-[16px] bg-grey-3 rounded-lg">
+        <div className= "sm:hidden xl:block spx-[15px] p-[16px] bg-grey-3 rounded-lg">
           {" "}
           <img src={logos} alt="logos" />
         </div>
